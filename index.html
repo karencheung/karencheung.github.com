@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Karen Cheung - Portfolio</title>
+
+	<link href="portfoliostyle.css" rel="stylesheet" type="text/css" media="all">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
+	 
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	});
+	</script>
+	
+	</head>
+
+
+<body>
+
+	<nav>
+	<ul class="nav">
+	<li><a href="#box1">Home</a></li>
+    <li><a href="#box2">About</a></li>
+    <li><a href="#box3">Works</a></li>
+	<li><a href="#box4">Resume</a></li>
+    <li><a href="#box5">Contact</a></li>
+	</ul>
+	</nav>
+	
+	<div id="wrapper">
+	<div id="box0">
+	
+	</div>
+	</div>
+
+
+		<div align="center" id="box1">
+		<p>
+		<img src="images/logo2.png" height="250" width="250">
+		<h3 class="title">Hello, I'm Karen Cheung</h3><br>
+		B.A. Communication<br>
+		Minor in Business (Marketing & Management)<br>
+		Minor in TAM (Technology, Arts, and Media)</p>
+		</div>
+
+		<div id="box2"><br>
+		<div align="center"><img src="images/karen1.png" height="260" width="260"></div>
+		<center>
+		<p>With the way that the world is structured today, technology and business have become inseparable in the development of our society; especially with a growing demand for swift and rapid communication. From my bachelor of communication with a minor in Business and Digital Media, I have learned all the crucial knowledge and skills to survive and advance in this technological era. Beside from that, I am able to speak and write fluently in three languages; Mandarin, Cantonese, and English. I was born in the United States, but I grew up in Hong Kong and Canada. I also love to travel around the globe. I would summarize my experience as having lived and studied in four different countries before; Hong Kong-China, Singapore, Canada, and the United States. These past experience have provided me with a very diverse background and valuable perspectives when it comes to working with people from different backgrounds.</p>
+		</center>
+		<br>
+		
+		</div>
+		
+
+		<div align="center" id="box3">
+		<div class="header" align="center">My Works:</div><br>
+		<a align="center" class="btn" href="sequentialimages.html" target="blank">Sequential Images</a><br><br>
+		<a align="center" class="btn" href="typespeciment.html" target="blank">&nbsp;&nbsp;Type Speciment&nbsp;&nbsp</a><br><br>
+		<a align="center" class="btn" href="weathericon.html" target="blank">&nbsp;&nbsp;&nbsp;Weather Icons&nbsp;&nbsp;&nbsp;</a><br><br>
+		<a align="center" class="btn" href="songbook.html" target="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Song Book&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br><br>
+		<a align="center" class="btn" href="citylogo.html" target="blank">&nbsp;City Logo Design&nbsp;</a><br>
+		</div>
+
+		<div id="box4">
+		<div class="header" align="center">Brief Resume:</div><br>
+		<center>
+		<article>
+		<div style="width:100%;height:460px; overflow:scroll; padding:8px;">
+		<u>Education:</u><br>
+		-University of Colorado at Boulder (2012 - Dec 2015) &nbsp;&nbsp;&nbsp; GPA:3.4<br>
+		▪B.A. Communication<br>
+		▪Minor in Business (Marketing and Management)<br>
+		▪Minor in TAM (Technology, Arts, and Media)<br>
+		<br>
+
+		<u>Work Experience:</u><br>
+		-Digital Marketing Summer Intern, Madison Asia Ltd, June-August 2015<br>
+		-Customer Assistant, Kim Sing Arts Ltd, 2008-2010<br><br>
+
+		<u>Volunteer Experience:</u><br>
+		-Organizational Department, CSSA, 2012-2014<br>
+		-Event & Program Volunteer Group, Thompson Community Center, 2009-2012<br><br>
+
+		<u>Achievements:</u><br>
+		-Eta Phi Honor Society<br>
+		-Xu Beihong International Arts Competition For Young Adults Senior Group&nbsp;&nbsp; (Gold Award)<br>
+		-Vancouver Kiwanis Music Festival Romantic Classical Composer ARCT&nbsp;&nbsp; (Silver Award)<br>
+		-Vancouver Kiwanis Music Festival Classical Composer Level 10&nbsp;&nbsp; (Bronze Award)<br>
+		-Kiwanis Fraser Valley International Music Festival Classical Composer Level 9&nbsp;&nbsp; (Silver Award)<br><br>
+
+		<u>Skills:</u><br>
+		-Languages: speak and write fluent Cantonese, Mandarin and English<br>
+		-Multicultural background; lived and studied in four different countries:<br>&nbsp; ▪Hong Kong, Singapore, Canada, United States<br>
+		-Skills in web development languages and graphic design programs gained from TAM minor:<br>
+			▪HTML, CSS, JavaScript, Drupal, Adobe After Effect, Adobe Edge, Adobe Fireworks, Adobe <br>
+			Illustrator, Adobe InDesign, Adobe Premium, Adobe Photoshop, Familiar with Python.<br>
+			
+			<br>
+		</div>
+		</center>
+		</article>
+		<br>
+		<center>
+		<a class="white" href="docs/resume.pdf" target="_blank">Download Full Resume</a><br><br>
+		</center>
+		</div>
+
+
+		<div id="box5">
+		<footer align="center">
+		<div class="headerblack" align="center">Contact Me:</div>
+		<p>
+		Email: kach2360@colorado.edu <br>
+		Phone: (805)2686259</p>
+		<ul class="oneline">
+		
+		<li><form action="MAILTO:kach2360@colorado.edu" method="post" enctype="text/plain">
+		<input type="submit" class="buttonStyle" value=" ">
+		</form></li>
+		
+		<li><a id="linkedin" href="https://www.linkedin.com/in/karencheung524"><img src="images/linkedinicon.png" height="50" width="50"></a><br>
+		</li></ul>
+		
+		</footer>
+		</div>
+</div>
+</body>
+</html>
