@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Karen Cheung - Portfolio</title>
+
+	<link href="portfoliostyle.css" rel="stylesheet" type="text/css" media="all">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
+	 
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	});
+	</script>
+	
+	</head>
+
+
+<body>
+
+	<nav>
+	<ul class="nav">
+	<li><a href="#box1">Home</a></li>
+    <li><a href="#box2">About</a></li>
+    <li><a href="#box3">Projects</a></li>
+	<li><a href="#box4">Resume</a></li>
+    <li><a href="#box5">Contact</a></li>
+	</ul>
+	</nav>
+	
+	<div id="wrapper">
+	<div id="box0">
+	
+	</div>
+	</div>
+
+
+		<div align="center" id="box1">
+		<p>
+		<img src="https://karencheung.github.io/images/logo.png" height="250" width="250">
+		<h3 class="title">Hello, I'm Karen Cheung</h3><br>
+		Bachelor of Art in Communication<br>
+		Minor in Business (Marketing & Management)<br>
+		Minor in TAM (Technology, Arts, and Media)</p>
+		</div>
+
+		<div id="box2"><br>
+		<div align="center"><img src="images/karen1.png" height="260" width="260"></div>
+		<center>
+		<p>With the way that the world is structured today, technology and business have become inseparable in the development of our society; especially with a growing demand for swift and rapid communication. From my bachelor of communication with a minor in Business and Digital Media, I have learned all the crucial knowledge and skills to survive and advance in this technological era. Beside from that, I am able to speak and write fluently in three languages; Mandarin, Cantonese, and English. I was born in the United States, but I grew up in Hong Kong and Canada. I also love to travel around the globe. I would summarize my experience as having lived and studied in four different countries before; Hong Kong-China, Singapore, Canada, and the United States. These past experience have provided me with a very diverse background and valuable perspectives when it comes to working with people from different backgrounds.</p>
+		</center>
+		<br>
+		
+		</div>
+		
+
+		<div align="center" id="box3">
+		<div class="header" align="center">Projects:</div><br><br>
+		<a align="center" class="btn" href="http://tamcms.com/hospitalcheck/" target="blank">&nbsp;&nbsp;Hospital Check&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+		<a align="center" class="btn" href="songbook.html" target="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Song Book&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;<br><br>
+		<a align="center" class="btn" href="sequentialimages.html" target="blank">Sequential Images</a>&nbsp;&nbsp;&nbsp;
+		<a align="center" class="btn" href="typespeciment.html" target="blank">&nbsp;Type Speciment&nbsp;</a>&nbsp;&nbsp;&nbsp;<br><br>
+		<a align="center" class="btn" href="weathericon.html" target="blank">&nbsp;&nbsp;&nbsp;Weather Icons&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+		<a align="center" class="btn" href="citylogo.html" target="blank">City Logo Design</a>&nbsp;&nbsp;&nbsp;<br><br>
+		</div>
+		</div>
+
+		<div id="box4">
+		<div class="header" align="center">Resume:</div><br>
+		<center>
+		<article>
+		<div style="width:100%;height:400px; overflow:scroll; padding:8px;">
+		<img src="images/resume.png" height="800" width="650">
+		</div>
+		</center>
+		</article>
+		<br>
+		<center>
+		<a class="white" href="docs/resume.pdf" target="_blank">Download Full Resume</a><br><br>
+		</center>
+		</div>
+
+
+		<div id="box5">
+		<footer align="center">
+		<div class="headerblack" align="center">Contact Me:</div>
+		<p>
+		Email: karencheung524@gmail.com <br>
+		Phone: 54239231</p>
+		<ul class="oneline">
+		
+		<li><form action="MAILTO:karencheung524@gmail.com" method="post" enctype="text/plain">
+		<input type="submit" class="buttonStyle" value=" ">
+		</form></li>
+		
+		<li><a id="linkedin" href="https://www.linkedin.com/in/karencheung524"><img src="images/linkedinicon.png" height="50" width="50"></a><br>
+		</li></ul>
+		
+		</footer>
+		</div>
+</div>
+</body>
+</html>
