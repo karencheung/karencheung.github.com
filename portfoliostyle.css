@@ -20,7 +20,7 @@
 
 body {
 	background: url("https://karencheung.github.io/images/bk1.jpg");
-	background-size: contain;
+	background-size: 1400px 1050px ;
 	background-attachment: fixed;
 	background-position: center top;
 	font-size: 18pt;
@@ -236,6 +236,9 @@ footer {
 
 /* Phone */
 @media only screen and (max-width: 720px){
+	Body{
+		background-size: contain ;
+	}
 	#wrapper{
 		width: 100%;
 	}
