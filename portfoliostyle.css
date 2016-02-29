@@ -7,10 +7,10 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
+    	-webkit-margin-after: 0em;
+    	-webkit-margin-start: 0px;
+    	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
 }
 #wrapper {
 	width: 100%;
@@ -24,6 +24,10 @@ body {
 	font-size: 18pt;
 	background-repeat: no-repeat;
 	font-family: 'Open Sans Condensed', sans-serif;
+	webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
 }
 
 
@@ -234,9 +238,6 @@ footer {
 
 /* Phone */
 @media only screen and (max-width: 720px){
-	body{
-		background-size: 100%;
-	}
 	#wrapper{
 		width: 100%;
 	}
