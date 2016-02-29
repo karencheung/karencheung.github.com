@@ -20,8 +20,8 @@
 
 body {
 	background: url("https://karencheung.github.io/images/bk1.jpg");
-	background-size: cover;
-
+	background-size: contain;
+	background-attachment: fixed;
 	background-position: center top;
 	font-size: 18pt;
 	background-repeat: repeat;
