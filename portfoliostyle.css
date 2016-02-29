@@ -24,10 +24,6 @@ body {
 	font-size: 18pt;
 	background-repeat: no-repeat;
 	font-family: 'Open Sans Condensed', sans-serif;
-	webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
 }
 
 
