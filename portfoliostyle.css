@@ -19,10 +19,10 @@
 
 
 body {
-	background: url("https://karencheung.github.io/images/bk1.jpg") no-repeat fixed center;
+	background: url("https://karencheung.github.io/images/bk1.jpg") repeat fixed center;
 	background-size: 100%;
 	font-size: 18pt;
-	background-repeat: no-repeat;
+	
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -234,9 +234,6 @@ footer {
 
 /* Phone */
 @media only screen and (max-width: 720px){
-	body{
-		background-repeat: repeat;
-	}
 	#wrapper{
 		width: 100%;
 	}
