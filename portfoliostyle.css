@@ -19,8 +19,9 @@
 
 
 body {
-	background: url("https://karencheung.github.io/images/bk1.jpg") no-repeat fixed center;
+	background: url("https://karencheung.github.io/images/bk1.jpg") no-repeat center;
 	background-size: 100%;
+	width: 100%;
 	height: auto;
 	font-size: 18pt;
 	background-repeat: no-repeat;
