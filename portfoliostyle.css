@@ -19,12 +19,13 @@
 
 
 body {
-	background: url("https://karencheung.github.io/images/bk1.jpg") no-repeat center;
-
-	width: 100%;
+	background: url("https://karencheung.github.io/images/bk1.jpg");
+	background-size: 100%;
+	background-size:contain;
+	background-position:center;
+	background-repeat: no-repeat;
 	height: auto;
 	font-size: 18pt;
-	background-repeat: no-repeat;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
