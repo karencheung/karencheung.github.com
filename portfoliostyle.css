@@ -19,10 +19,10 @@
 
 
 body {
-	background: url("https://karencheung.github.io/images/bk1.jpg") repeat fixed center;
+	background: url("https://karencheung.github.io/images/bk1.jpg");
 	background-size: 100%;
 	font-size: 18pt;
-	
+	background-repeat: repeat;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
